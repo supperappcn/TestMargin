@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  ImageVIewFiltterDemo
+//
+//  Created by DDQ on 2019/12/12.
+//  Copyright © 2019 DDQ. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Masonry.h"
+#import "UIView+Additions.h"
+#import "UIImage+scale.h"
+#import "GPUImage.h"
+
+#define WeakSelf(obj) __weak typeof(obj) weakSelf = obj;
+#define StrongSelf(obj) __strong typeof(obj) strongSelf = weakSelf;
+
+#endif /* PrefixHeader_pch */
