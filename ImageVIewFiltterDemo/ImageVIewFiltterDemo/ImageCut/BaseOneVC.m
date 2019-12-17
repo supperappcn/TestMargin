@@ -41,6 +41,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    //test margin
+    
     _imageView = [[UIImageView alloc] init];
     [self.view addSubview:_imageView];
     [_imageView mas_makeConstraints:^(MASConstraintMaker *make) {
